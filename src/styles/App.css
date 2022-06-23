@@ -37,3 +37,28 @@ body {
   align-items: center;
   min-height: 90vh;
 }
+
+.Shop {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 4rem;
+  padding: 5rem;
+}
+
+.Item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.Item:hover {
+  border: 5px solid black;
+}
+
+.Item img {
+  max-width: 100%;
+}
+

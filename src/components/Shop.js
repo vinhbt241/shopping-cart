@@ -1,7 +1,14 @@
+import { getItems } from "../data";
+import { Item } from "./Item";
+
 const Shop = () => {
+  const items = getItems();
+
   return(
-    <div>
-      <h1>This is Shop page</h1>
+    <div className="Shop">
+      {items.map(item => {
+        return <Item img={item.image} name={item.name} amount={item.amount}/>
+      })}
     </div>
   )
 }
