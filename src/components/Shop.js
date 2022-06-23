@@ -7,7 +7,7 @@ const Shop = () => {
   return(
     <div className="Shop">
       {items.map(item => {
-        return <Item img={item.image} name={item.name} amount={item.amount}/>
+        return <Item key={item.name} img={item.image} name={item.name} amount={item.amount}/>
       })}
     </div>
   )

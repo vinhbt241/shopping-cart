@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import CartSymbol from "../images/shopping_cart.png"
 
 let activeStyle = {
   color: "white",
@@ -29,6 +30,10 @@ const NavBar = () => {
           }
         >Shop</NavLink>
       </nav>
+
+      <button className="shopping-cart">
+          <img src={CartSymbol} alt=""/>
+      </button>
     </div>
   )
 }
