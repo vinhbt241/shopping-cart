@@ -1,9 +1,13 @@
 import { useParams } from "react-router-dom";
 import { getItem } from "../data";
 
-const ItemInfo = () => {
+const ItemInfo = (props) => {
   let params = useParams();
   let item = getItem(params.name);
+
+  const handleClick = () => {
+    props.add(item);
+  }
 
   return (
     <div className="ItemInfo">
@@ -17,7 +21,7 @@ const ItemInfo = () => {
         <h3>Description</h3>
         <p>{item.description}</p>
 
-        <button className="add-item">Add To Cart</button>
+        <button className="add-item" onClick={handleClick}>Add To Cart</button>
       </div>
     </div>
   )

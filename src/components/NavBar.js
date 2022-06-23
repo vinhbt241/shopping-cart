@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import CartSymbol from "../images/shopping_cart.png"
+import CartSymbol from "../images/shopping_cart.png";
 
 let activeStyle = {
   color: "white",
@@ -11,7 +11,7 @@ let idleStyle = {
   textDecoration: "none"
 }
 
-const NavBar = () => {
+const NavBar = (props) => {
   return(
     <div className="NavBar">
       <h1>Super Hardcore Shop</h1>
@@ -31,9 +31,20 @@ const NavBar = () => {
         >Shop</NavLink>
       </nav>
 
-      <button className="shopping-cart">
+      <div className="shopping-cart-link-container">
+        <NavLink
+          to="/shopping-cart"
+          style={({ isActive }) =>
+          isActive ? activeStyle : idleStyle
+          }
+        >
+          <div className="shopping-cart-link">
+          Cart
+          {props.itemAmount}
           <img src={CartSymbol} alt=""/>
-      </button>
+          </div>
+        </NavLink>
+      </div>
     </div>
   )
 }
