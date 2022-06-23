@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: gray;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.NavBar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.NavBar h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.NavBar nav {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}

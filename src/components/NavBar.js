@@ -1,4 +1,14 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
+let activeStyle = {
+  color: "white",
+  textDecoration: "underline"
+}
+
+let idleStyle = {
+  color: "white",
+  textDecoration: "none"
+}
 
 const NavBar = () => {
   return(
@@ -6,8 +16,18 @@ const NavBar = () => {
       <h1>Lovely Shop</h1>
 
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/shop">Shop</Link>
+        <NavLink 
+          to="/"
+          style={({ isActive }) =>
+          isActive ? activeStyle : idleStyle
+          }
+        >Home</NavLink>
+        <NavLink 
+          to="/shop"
+          style={({ isActive }) =>
+          isActive ? activeStyle : idleStyle
+          }
+        >Shop</NavLink>
       </nav>
     </div>
   )
