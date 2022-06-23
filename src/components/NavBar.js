@@ -13,7 +13,7 @@ let idleStyle = {
 const NavBar = () => {
   return(
     <div className="NavBar">
-      <h1>Lovely Shop</h1>
+      <h1>Super Hardcore Shop</h1>
 
       <nav>
         <NavLink 
