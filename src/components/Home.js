@@ -7,7 +7,7 @@ const Home = () => {
         <h1>Welcome to our shop!</h1>
         <h2>We sell glasses and hats from Revachol</h2>
         <Link 
-          to="/shop"
+          to="/shopping-cart/shop"
           style={{textDecoration: "none"}}>
           <div className="link-to-shop">Go shopping now</div>
         </Link>
