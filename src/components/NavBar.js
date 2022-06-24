@@ -18,13 +18,13 @@ const NavBar = (props) => {
 
       <nav>
         <NavLink 
-          to="/"
+          to="/shopping-cart"
           style={({ isActive }) =>
           isActive ? activeStyle : idleStyle
           }
         >Home</NavLink>
         <NavLink 
-          to="/shop"
+          to="/shopping-cart/shop"
           style={({ isActive }) =>
           isActive ? activeStyle : idleStyle
           }
@@ -33,7 +33,7 @@ const NavBar = (props) => {
 
       <div className="shopping-cart-link-container">
         <NavLink
-          to="/shopping-cart"
+          to="/shopping-cart/shopping-cart"
           style={({ isActive }) =>
           isActive ? activeStyle : idleStyle
           }

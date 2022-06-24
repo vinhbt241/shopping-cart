@@ -26,7 +26,7 @@ const Index = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App itemAmount={selectedItems.length}/>}>
+          <Route path="/shopping-cart" element={<App itemAmount={selectedItems.length}/>}>
             <Route index element={<Home />} />
             <Route path="shop" element={<Shop />} />
             <Route path="shop/:name" element={<ItemInfo add={addItemToCart} />} />

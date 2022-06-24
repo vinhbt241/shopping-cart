@@ -4,7 +4,7 @@ const Item = (props) => {
   return(
     <div className="Item">
       <Link 
-        to={`/shop/${props.name}`}
+        to={`/shopping-cart/shop/${props.name}`}
         style={{
           textDecoration: "none",
           color: "black"
