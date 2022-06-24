@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { SelectedItem } from "./SelectedItem";
 
 const ShoppingCart = (props) => {
