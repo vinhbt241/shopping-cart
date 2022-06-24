@@ -18,7 +18,7 @@ const NavBar = (props) => {
 
       <nav>
         <NavLink 
-          to="/shopping-cart"
+          to="/shopping-cart/"
           style={({ isActive }) =>
           isActive ? activeStyle : idleStyle
           }
