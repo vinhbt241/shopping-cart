@@ -31,7 +31,7 @@ const Index = () => {
             <Route path="shop" element={<Shop />} />
             <Route path="shop/:name" element={<ItemInfo add={addItemToCart} />} />
             <Route 
-              path="shopping-cart" 
+              path="customer-shopping-cart" 
               element={
               <ShoppingCart 
                 remove={removeItemFromCart}
