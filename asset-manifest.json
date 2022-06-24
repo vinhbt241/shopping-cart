@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.b503454b.css",
-    "main.js": "/shopping-cart/static/js/main.be55a96e.js",
+    "main.js": "/shopping-cart/static/js/main.093ced57.js",
     "static/media/background.jpg": "/shopping-cart/static/media/background.f20c1e6067640efc94c9.jpg",
     "static/media/Glasses_megabinos.webp": "/shopping-cart/static/media/Glasses_megabinos.79620f874f4b6492ccc9.webp",
     "static/media/Hat_bum.webp": "/shopping-cart/static/media/Hat_bum.6b6834203c6b2fadcc4b.webp",
@@ -20,10 +20,10 @@
     "static/media/Glasses_rect.webp": "/shopping-cart/static/media/Glasses_rect.af896a39894a8bcbc815.webp",
     "index.html": "/shopping-cart/index.html",
     "main.b503454b.css.map": "/shopping-cart/static/css/main.b503454b.css.map",
-    "main.be55a96e.js.map": "/shopping-cart/static/js/main.be55a96e.js.map"
+    "main.093ced57.js.map": "/shopping-cart/static/js/main.093ced57.js.map"
   },
   "entrypoints": [
     "static/css/main.b503454b.css",
-    "static/js/main.be55a96e.js"
+    "static/js/main.093ced57.js"
   ]
 }
