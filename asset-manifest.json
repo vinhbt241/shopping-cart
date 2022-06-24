@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d61b8d5b.css",
-    "main.js": "/static/js/main.f17ed4ea.js",
-    "static/media/background.jpg": "/static/media/background.f20c1e6067640efc94c9.jpg",
-    "static/media/Glasses_megabinos.webp": "/static/media/Glasses_megabinos.79620f874f4b6492ccc9.webp",
-    "static/media/Hat_bum.webp": "/static/media/Hat_bum.6b6834203c6b2fadcc4b.webp",
-    "static/media/Glasses_flipup.webp": "/static/media/Glasses_flipup.4a6914c470c8307e9a51.webp",
-    "static/media/Hat_samaran.webp": "/static/media/Hat_samaran.b6302e3ba7f089b5c7d9.webp",
-    "static/media/Hat_revolutionary.webp": "/static/media/Hat_revolutionary.dbb2d746be8c10e5b77d.webp",
-    "static/media/Hat_headset.webp": "/static/media/Hat_headset.b9898b720578664e5a62.webp",
-    "static/media/Glasses_sub_insulindics.webp": "/static/media/Glasses_sub_insulindics.50d6b1ed6b24fac2342b.webp",
-    "static/media/Hat_mullen.webp": "/static/media/Hat_mullen.a05631161f81fc700e58.webp",
-    "static/media/Hat_camionneur.webp": "/static/media/Hat_camionneur.19cffd7f77b5d1b77d11.webp",
-    "static/media/Hat_faln.webp": "/static/media/Hat_faln.ae14b14d5ba96b4eaf88.webp",
-    "static/media/Hat_rcm.webp": "/static/media/Hat_rcm.45611b603a18031009c7.webp",
-    "static/media/Glasses_bugeyes.webp": "/static/media/Glasses_bugeyes.46c254f51b7ef657bda7.webp",
-    "static/media/Glasses_self_destruction.webp": "/static/media/Glasses_self_destruction.71ae5230995af18c844c.webp",
-    "static/media/Glasses_biker.webp": "/static/media/Glasses_biker.14320c8556232228ae57.webp",
-    "static/media/Glasses_rect.webp": "/static/media/Glasses_rect.af896a39894a8bcbc815.webp",
-    "index.html": "/index.html",
-    "main.d61b8d5b.css.map": "/static/css/main.d61b8d5b.css.map",
-    "main.f17ed4ea.js.map": "/static/js/main.f17ed4ea.js.map"
+    "main.css": "/shopping-cart/static/css/main.b503454b.css",
+    "main.js": "/shopping-cart/static/js/main.eb883d6f.js",
+    "static/media/background.jpg": "/shopping-cart/static/media/background.f20c1e6067640efc94c9.jpg",
+    "static/media/Glasses_megabinos.webp": "/shopping-cart/static/media/Glasses_megabinos.79620f874f4b6492ccc9.webp",
+    "static/media/Hat_bum.webp": "/shopping-cart/static/media/Hat_bum.6b6834203c6b2fadcc4b.webp",
+    "static/media/Glasses_flipup.webp": "/shopping-cart/static/media/Glasses_flipup.4a6914c470c8307e9a51.webp",
+    "static/media/Hat_samaran.webp": "/shopping-cart/static/media/Hat_samaran.b6302e3ba7f089b5c7d9.webp",
+    "static/media/Hat_revolutionary.webp": "/shopping-cart/static/media/Hat_revolutionary.dbb2d746be8c10e5b77d.webp",
+    "static/media/Hat_headset.webp": "/shopping-cart/static/media/Hat_headset.b9898b720578664e5a62.webp",
+    "static/media/Glasses_sub_insulindics.webp": "/shopping-cart/static/media/Glasses_sub_insulindics.50d6b1ed6b24fac2342b.webp",
+    "static/media/Hat_mullen.webp": "/shopping-cart/static/media/Hat_mullen.a05631161f81fc700e58.webp",
+    "static/media/Hat_camionneur.webp": "/shopping-cart/static/media/Hat_camionneur.19cffd7f77b5d1b77d11.webp",
+    "static/media/Hat_faln.webp": "/shopping-cart/static/media/Hat_faln.ae14b14d5ba96b4eaf88.webp",
+    "static/media/Hat_rcm.webp": "/shopping-cart/static/media/Hat_rcm.45611b603a18031009c7.webp",
+    "static/media/Glasses_bugeyes.webp": "/shopping-cart/static/media/Glasses_bugeyes.46c254f51b7ef657bda7.webp",
+    "static/media/Glasses_self_destruction.webp": "/shopping-cart/static/media/Glasses_self_destruction.71ae5230995af18c844c.webp",
+    "static/media/Glasses_biker.webp": "/shopping-cart/static/media/Glasses_biker.14320c8556232228ae57.webp",
+    "static/media/Glasses_rect.webp": "/shopping-cart/static/media/Glasses_rect.af896a39894a8bcbc815.webp",
+    "index.html": "/shopping-cart/index.html",
+    "main.b503454b.css.map": "/shopping-cart/static/css/main.b503454b.css.map",
+    "main.eb883d6f.js.map": "/shopping-cart/static/js/main.eb883d6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d61b8d5b.css",
-    "static/js/main.f17ed4ea.js"
+    "static/css/main.b503454b.css",
+    "static/js/main.eb883d6f.js"
   ]
 }
