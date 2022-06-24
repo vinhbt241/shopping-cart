@@ -40,8 +40,10 @@ const NavBar = (props) => {
         >
           <div className="shopping-cart-link">
           Cart
-          {props.itemAmount}
           <img src={CartSymbol} alt=""/>
+          
+          {props.itemAmount !== 0 ? <div className="cart-amount">{props.itemAmount}</div> : ""}
+
           </div>
         </NavLink>
       </div>

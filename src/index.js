@@ -12,6 +12,9 @@ const Index = () => {
   const [selectedItems, setSelectedItems] = useState([]);
 
   const addItemToCart = (item) => {
+    if(selectedItems.includes(item)) {
+      return;
+    }
     setSelectedItems(selectedItems.concat(item));
   }
 

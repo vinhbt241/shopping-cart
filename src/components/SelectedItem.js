@@ -18,8 +18,8 @@ const SelectedItem = (props) => {
   return(
     <div className="SelectedItem">
       <img src={props.img} alt = "" />
-      <p>{props.name}</p>
-      <div>
+      <p className="name-in-cart">{props.name}</p>
+      <div className="item-quantity">
         <button onClick={decreaseQuantity}>-</button>
         {quantity}
         <button onClick={increaseQuantity}>+</button>
