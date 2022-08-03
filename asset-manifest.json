@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.b503454b.css",
-    "main.js": "/shopping-cart/static/js/main.8e02a12f.js",
+    "main.css": "/shopping-cart/static/css/main.6529957e.css",
+    "main.js": "/shopping-cart/static/js/main.373590e0.js",
     "static/media/background.jpg": "/shopping-cart/static/media/background.f20c1e6067640efc94c9.jpg",
     "static/media/Glasses_megabinos.webp": "/shopping-cart/static/media/Glasses_megabinos.79620f874f4b6492ccc9.webp",
     "static/media/Hat_bum.webp": "/shopping-cart/static/media/Hat_bum.6b6834203c6b2fadcc4b.webp",
@@ -19,11 +19,11 @@
     "static/media/Glasses_biker.webp": "/shopping-cart/static/media/Glasses_biker.14320c8556232228ae57.webp",
     "static/media/Glasses_rect.webp": "/shopping-cart/static/media/Glasses_rect.af896a39894a8bcbc815.webp",
     "index.html": "/shopping-cart/index.html",
-    "main.b503454b.css.map": "/shopping-cart/static/css/main.b503454b.css.map",
-    "main.8e02a12f.js.map": "/shopping-cart/static/js/main.8e02a12f.js.map"
+    "main.6529957e.css.map": "/shopping-cart/static/css/main.6529957e.css.map",
+    "main.373590e0.js.map": "/shopping-cart/static/js/main.373590e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b503454b.css",
-    "static/js/main.8e02a12f.js"
+    "static/css/main.6529957e.css",
+    "static/js/main.373590e0.js"
   ]
 }
