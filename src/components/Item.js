@@ -2,18 +2,13 @@ import { Link } from "react-router-dom";
 
 const Item = (props) => {
   return(
-    <div className="Item">
-      <Link 
-        to={`/shopping-cart/shop/${props.name}`}
-        style={{
-          textDecoration: "none",
-          color: "black"
-      }}>
-      <img src={props.img} alt=""/>
-      <strong>{props.name}</strong>
-      <p>{props.amount}</p>
-      </Link>
-    </div>
+    <Link 
+      to={`/shopping-cart/shop/${props.name}`}
+      className="Item">
+    <img src={props.img} alt=""/>
+    <strong>{props.name}</strong>
+    <p>{props.amount}</p>
+    </Link>
   )
 }
 
